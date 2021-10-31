@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.listeners.ListenersEx"/>
+    <listener class-name="com.listeners.setRetryListner"/>
+  </listeners>
+  <test thread-count="1" name="Test1(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testCases.Test2">
+        <methods>
+          <include name="DashboardUserText"/>
+          <include name="loginTest"/>
+          <include name="listOfCourses"/>
+          <include name="setup"/>
+          <include name="Dashboard"/>
+        </methods>
+      </class> <!-- com.testCases.Test2 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="1" name="Test2(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testCases.Test2">
+        <methods>
+          <include name="DashboardUserText"/>
+          <include name="loginTest"/>
+          <include name="listOfCourses"/>
+          <include name="setup"/>
+          <include name="Dashboard"/>
+        </methods>
+      </class> <!-- com.testCases.Test2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

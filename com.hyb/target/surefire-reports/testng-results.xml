@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28051" started-at="2021-10-28T12:44:43Z" finished-at="2021-10-28T12:45:11Z">
+    <groups>
+      <group name="Ramesh">
+        <method signature="Test2.DashboardUserText()[pri:0, instance:com.testCases.Test2@61230f6a]" name="DashboardUserText" class="com.testCases.Test2"/>
+        <method signature="Test2.listOfCourses()[pri:0, instance:com.testCases.Test2@61230f6a]" name="listOfCourses" class="com.testCases.Test2"/>
+      </group> <!-- Ramesh -->
+      <group name="Rohan">
+        <method signature="Test2.loginTest()[pri:0, instance:com.testCases.Test2@61230f6a]" name="loginTest" class="com.testCases.Test2"/>
+        <method signature="Test2.Dashboard()[pri:0, instance:com.testCases.Test2@61230f6a]" name="Dashboard" class="com.testCases.Test2"/>
+      </group> <!-- Rohan -->
+    </groups>
+    <test name="Test" duration-ms="28051" started-at="2021-10-28T12:44:43Z" finished-at="2021-10-28T12:45:11Z">
+      <class name="com.testCases.test1">
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:com.testCases.test1@418e7838]" name="SecondTest" duration-ms="10110" started-at="2021-10-28T12:44:52Z" finished-at="2021-10-28T12:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:com.testCases.test1@418e7838]" name="firstTest" duration-ms="3779" started-at="2021-10-28T12:45:02Z" finished-at="2021-10-28T12:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+      </class> <!-- com.testCases.test1 -->
+      <class name="com.testCases.Test2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.Test2@61230f6a]" name="setup" is-config="true" duration-ms="4675" started-at="2021-10-28T12:44:43Z" finished-at="2021-10-28T12:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.test1@418e7838]" name="setup" is-config="true" duration-ms="3449" started-at="2021-10-28T12:44:48Z" finished-at="2021-10-28T12:44:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DashboardUserText()[pri:0, instance:com.testCases.Test2@61230f6a]" name="DashboardUserText" duration-ms="4372" started-at="2021-10-28T12:45:05Z" description="User" finished-at="2021-10-28T12:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardUserText -->
+        <test-method status="PASS" signature="listOfCourses()[pri:0, instance:com.testCases.Test2@61230f6a]" name="listOfCourses" duration-ms="796" started-at="2021-10-28T12:45:10Z" description="list" finished-at="2021-10-28T12:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOfCourses -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.testCases.Test2@61230f6a]" name="loginTest" duration-ms="140" depends-on-groups="Ramesh" started-at="2021-10-28T12:45:11Z" description="Login" finished-at="2021-10-28T12:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="Dashboard()[pri:0, instance:com.testCases.Test2@61230f6a]" name="Dashboard" duration-ms="590" started-at="2021-10-28T12:45:11Z" description="Dash" depends-on-methods="com.testCases.Test2.loginTest" finished-at="2021-10-28T12:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard -->
+      </class> <!-- com.testCases.Test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

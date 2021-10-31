@@ -1,0 +1,4 @@
+# Created at 2021-10-25T22:52:48.733
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Rohan\eclipse\com.hyb\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
