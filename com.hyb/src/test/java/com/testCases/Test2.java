@@ -40,7 +40,7 @@ public class Test2 extends BaseClass {
 		driver.findElement(By.id("password")).sendKeys("123456");
 		driver.findElement(By.xpath("//button")).click();
 			
-		AssertJUnit.assertEquals(driver.getTitle(), "JavaByKiran | Dashboard1");
+		AssertJUnit.assertEquals(driver.getTitle(), "JavaByKiran | Dashboard");
 		
 		
 	}
